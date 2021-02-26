@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A54981025E8E92F00C7CBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54980F25E8E92F00C7CBFF /* AppDelegate.swift */; };
+		9A54981225E8E92F00C7CBFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54981125E8E92F00C7CBFF /* SceneDelegate.swift */; };
+		9A54981425E8E92F00C7CBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54981325E8E92F00C7CBFF /* ViewController.swift */; };
+		9A54981725E8E92F00C7CBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A54981525E8E92F00C7CBFF /* Main.storyboard */; };
+		9A54981925E8E93000C7CBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A54981825E8E93000C7CBFF /* Assets.xcassets */; };
+		9A54981C25E8E93000C7CBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A54981A25E8E93000C7CBFF /* LaunchScreen.storyboard */; };
+		9A54982725E8E93000C7CBFF /* Project7_WhiteHousePetitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54982625E8E93000C7CBFF /* Project7_WhiteHousePetitionsTests.swift */; };
+		9A54983225E8E93000C7CBFF /* Project7_WhiteHousePetitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54983125E8E93000C7CBFF /* Project7_WhiteHousePetitionsUITests.swift */; };
+		9A54984325E8F10500C7CBFF /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54984225E8F10400C7CBFF /* Petition.swift */; };
+		9A54984825E8F3C400C7CBFF /* DetailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54984725E8F3C400C7CBFF /* DetailViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A54982325E8E93000C7CBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A54980425E8E92F00C7CBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A54980B25E8E92F00C7CBFF;
+			remoteInfo = "Project7-WhiteHousePetitions";
+		};
+		9A54982E25E8E93000C7CBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A54980425E8E92F00C7CBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A54980B25E8E92F00C7CBFF;
+			remoteInfo = "Project7-WhiteHousePetitions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A54980C25E8E92F00C7CBFF /* Project7-WhiteHousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project7-WhiteHousePetitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A54980F25E8E92F00C7CBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A54981125E8E92F00C7CBFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A54981325E8E92F00C7CBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A54981625E8E92F00C7CBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A54981825E8E93000C7CBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A54981B25E8E93000C7CBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A54981D25E8E93000C7CBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A54982225E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project7-WhiteHousePetitionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A54982625E8E93000C7CBFF /* Project7_WhiteHousePetitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7_WhiteHousePetitionsTests.swift; sourceTree = "<group>"; };
+		9A54982825E8E93000C7CBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A54982D25E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project7-WhiteHousePetitionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A54983125E8E93000C7CBFF /* Project7_WhiteHousePetitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7_WhiteHousePetitionsUITests.swift; sourceTree = "<group>"; };
+		9A54983325E8E93000C7CBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A54984225E8F10400C7CBFF /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		9A54984725E8F3C400C7CBFF /* DetailViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A54980925E8E92F00C7CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54981F25E8E93000C7CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54982A25E8E93000C7CBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A54980325E8E92F00C7CBFF = {
+			isa = PBXGroup;
+			children = (
+				9A54980E25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */,
+				9A54982525E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests */,
+				9A54983025E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests */,
+				9A54980D25E8E92F00C7CBFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A54980D25E8E92F00C7CBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A54980C25E8E92F00C7CBFF /* Project7-WhiteHousePetitions.app */,
+				9A54982225E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests.xctest */,
+				9A54982D25E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A54980E25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */ = {
+			isa = PBXGroup;
+			children = (
+				9A54980F25E8E92F00C7CBFF /* AppDelegate.swift */,
+				9A54981125E8E92F00C7CBFF /* SceneDelegate.swift */,
+				9A54981325E8E92F00C7CBFF /* ViewController.swift */,
+				9A54984725E8F3C400C7CBFF /* DetailViewViewController.swift */,
+				9A54984225E8F10400C7CBFF /* Petition.swift */,
+				9A54981525E8E92F00C7CBFF /* Main.storyboard */,
+				9A54981825E8E93000C7CBFF /* Assets.xcassets */,
+				9A54981A25E8E93000C7CBFF /* LaunchScreen.storyboard */,
+				9A54981D25E8E93000C7CBFF /* Info.plist */,
+			);
+			path = "Project7-WhiteHousePetitions";
+			sourceTree = "<group>";
+		};
+		9A54982525E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A54982625E8E93000C7CBFF /* Project7_WhiteHousePetitionsTests.swift */,
+				9A54982825E8E93000C7CBFF /* Info.plist */,
+			);
+			path = "Project7-WhiteHousePetitionsTests";
+			sourceTree = "<group>";
+		};
+		9A54983025E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A54983125E8E93000C7CBFF /* Project7_WhiteHousePetitionsUITests.swift */,
+				9A54983325E8E93000C7CBFF /* Info.plist */,
+			);
+			path = "Project7-WhiteHousePetitionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A54980B25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A54983625E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitions" */;
+			buildPhases = (
+				9A54980825E8E92F00C7CBFF /* Sources */,
+				9A54980925E8E92F00C7CBFF /* Frameworks */,
+				9A54980A25E8E92F00C7CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project7-WhiteHousePetitions";
+			productName = "Project7-WhiteHousePetitions";
+			productReference = 9A54980C25E8E92F00C7CBFF /* Project7-WhiteHousePetitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A54982125E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A54983925E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitionsTests" */;
+			buildPhases = (
+				9A54981E25E8E93000C7CBFF /* Sources */,
+				9A54981F25E8E93000C7CBFF /* Frameworks */,
+				9A54982025E8E93000C7CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A54982425E8E93000C7CBFF /* PBXTargetDependency */,
+			);
+			name = "Project7-WhiteHousePetitionsTests";
+			productName = "Project7-WhiteHousePetitionsTests";
+			productReference = 9A54982225E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A54982C25E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A54983C25E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitionsUITests" */;
+			buildPhases = (
+				9A54982925E8E93000C7CBFF /* Sources */,
+				9A54982A25E8E93000C7CBFF /* Frameworks */,
+				9A54982B25E8E93000C7CBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A54982F25E8E93000C7CBFF /* PBXTargetDependency */,
+			);
+			name = "Project7-WhiteHousePetitionsUITests";
+			productName = "Project7-WhiteHousePetitionsUITests";
+			productReference = 9A54982D25E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A54980425E8E92F00C7CBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9A54980B25E8E92F00C7CBFF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9A54982125E8E93000C7CBFF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9A54980B25E8E92F00C7CBFF;
+					};
+					9A54982C25E8E93000C7CBFF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9A54980B25E8E92F00C7CBFF;
+					};
+				};
+			};
+			buildConfigurationList = 9A54980725E8E92F00C7CBFF /* Build configuration list for PBXProject "Project7-WhiteHousePetitions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A54980325E8E92F00C7CBFF;
+			productRefGroup = 9A54980D25E8E92F00C7CBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A54980B25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */,
+				9A54982125E8E93000C7CBFF /* Project7-WhiteHousePetitionsTests */,
+				9A54982C25E8E93000C7CBFF /* Project7-WhiteHousePetitionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A54980A25E8E92F00C7CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54981C25E8E93000C7CBFF /* LaunchScreen.storyboard in Resources */,
+				9A54981925E8E93000C7CBFF /* Assets.xcassets in Resources */,
+				9A54981725E8E92F00C7CBFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54982025E8E93000C7CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54982B25E8E93000C7CBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A54980825E8E92F00C7CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54981425E8E92F00C7CBFF /* ViewController.swift in Sources */,
+				9A54984325E8F10500C7CBFF /* Petition.swift in Sources */,
+				9A54981025E8E92F00C7CBFF /* AppDelegate.swift in Sources */,
+				9A54984825E8F3C400C7CBFF /* DetailViewViewController.swift in Sources */,
+				9A54981225E8E92F00C7CBFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54981E25E8E93000C7CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54982725E8E93000C7CBFF /* Project7_WhiteHousePetitionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A54982925E8E93000C7CBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54983225E8E93000C7CBFF /* Project7_WhiteHousePetitionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A54982425E8E93000C7CBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A54980B25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */;
+			targetProxy = 9A54982325E8E93000C7CBFF /* PBXContainerItemProxy */;
+		};
+		9A54982F25E8E93000C7CBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A54980B25E8E92F00C7CBFF /* Project7-WhiteHousePetitions */;
+			targetProxy = 9A54982E25E8E93000C7CBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A54981525E8E92F00C7CBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A54981625E8E92F00C7CBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A54981A25E8E93000C7CBFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A54981B25E8E93000C7CBFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A54983425E8E93000C7CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A54983525E8E93000C7CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A54983725E8E93000C7CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A54983825E8E93000C7CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A54983A25E8E93000C7CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitionsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project7-WhiteHousePetitions.app/Project7-WhiteHousePetitions";
+			};
+			name = Debug;
+		};
+		9A54983B25E8E93000C7CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitionsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project7-WhiteHousePetitions.app/Project7-WhiteHousePetitions";
+			};
+			name = Release;
+		};
+		9A54983D25E8E93000C7CBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project7-WhiteHousePetitions";
+			};
+			name = Debug;
+		};
+		9A54983E25E8E93000C7CBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project7-WhiteHousePetitionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project7-WhiteHousePetitionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project7-WhiteHousePetitions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A54980725E8E92F00C7CBFF /* Build configuration list for PBXProject "Project7-WhiteHousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A54983425E8E93000C7CBFF /* Debug */,
+				9A54983525E8E93000C7CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A54983625E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A54983725E8E93000C7CBFF /* Debug */,
+				9A54983825E8E93000C7CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A54983925E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A54983A25E8E93000C7CBFF /* Debug */,
+				9A54983B25E8E93000C7CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A54983C25E8E93000C7CBFF /* Build configuration list for PBXNativeTarget "Project7-WhiteHousePetitionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A54983D25E8E93000C7CBFF /* Debug */,
+				9A54983E25E8E93000C7CBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A54980425E8E92F00C7CBFF /* Project object */;
+}
